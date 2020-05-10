@@ -24,7 +24,9 @@ namespace SalesWebMvc.Controllers
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "Salles Web MVC App from C# Course";
+            ViewData["Message"] = "Nelio Alves";
+
 
             return View();
         }
